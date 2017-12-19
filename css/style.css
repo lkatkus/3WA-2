@@ -1,5 +1,6 @@
 ul.navBar{
     padding: 0;
+    margin: 0;
 }
 
 /*li.nav{
@@ -9,6 +10,11 @@ ul.navBar{
 
 li.nav{
     display: inline;
+    margin-left: 0;
+    padding-right: 20px;
+}
+
+.nav2{
     margin-left: 0;
     padding-right: 20px;
 }
@@ -47,8 +53,14 @@ p.bgGreen{
 
 span.italic{
     font-style: italic;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 span:hover{
     color:red;
+
+}
+
+img + p::first-letter{
+    font-size: 30px;
 }
