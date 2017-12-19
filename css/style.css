@@ -44,3 +44,11 @@ p.bgBlue{
 p.bgGreen{
     background-color: green;
 }
+
+span.italic{
+    font-style: italic;
+}
+
+span:hover{
+    color:red;
+}
