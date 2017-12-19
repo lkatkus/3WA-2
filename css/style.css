@@ -2,10 +2,15 @@ ul.navBar{
     padding: 0;
 }
 
+/*li.nav{
+    list-style: none;
+    list-style-position: inside;
+}*/
+
 li.nav{
-  display: inline;
-  margin-left: 0;
-  padding-right: 20px;
+    display: inline;
+    margin-left: 0;
+    padding-right: 20px;
 }
 
 p.comic{
@@ -14,4 +19,28 @@ p.comic{
 
 p.arial{
     font-family: Arial;
+}
+
+p.red{
+    color:red;
+}
+
+p.blue{
+    color: blue;
+}
+
+p.green{
+    color: green;
+}
+
+p.bgRed{
+    background-color: red;
+}
+
+p.bgBlue{
+    background-color: blue;
+}
+
+p.bgGreen{
+    background-color: green;
 }
