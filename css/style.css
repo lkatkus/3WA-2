@@ -1,0 +1,17 @@
+ul.navBar{
+    padding: 0;
+}
+
+li.nav{
+  display: inline;
+  margin-left: 0;
+  padding-right: 20px;
+}
+
+p.comic{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+p.arial{
+    font-family: Arial;
+}
