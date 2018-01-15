@@ -3,10 +3,16 @@ ul.navBar{
     margin: 0;
 }
 
-/*li.nav{
-    list-style: none;
-    list-style-position: inside;
-}*/
+li:nth-child(even){
+    background-color: #d3d3d3;
+}
+
+/*Other way to display ul li in one line*/
+
+    /*li.nav{
+        list-style: none;
+        list-style-position: inside;
+    }*/
 
 li.nav{
     display: inline;
@@ -14,7 +20,7 @@ li.nav{
     padding-right: 20px;
 }
 
-.nav2{
+a.nav2{
     margin-left: 0;
     padding-right: 20px;
 }
